@@ -1,0 +1,11 @@
+<div class="container">
+
+    <div>
+        @for (item of getArray(iteracion); track $index) {
+            <app-card-parking [value]="$index+1"></app-card-parking>
+        }
+    </div>
+
+    
+    
+</div>

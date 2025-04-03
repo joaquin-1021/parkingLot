@@ -1,0 +1,16 @@
+.container{
+    height: 150px;
+    width: 100px;
+    background-color: rgb(87, 85, 85);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a:hover{
+        background-color: black;
+        border-radius: 100px;
+    }
+}
+.modal{
+    position: fixed;
+}
